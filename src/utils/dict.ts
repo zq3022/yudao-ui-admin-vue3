@@ -195,5 +195,8 @@ export enum DICT_TYPE {
   CRM_CUSTOMER_INDUSTRY = 'crm_customer_industry',
   CRM_CUSTOMER_LEVEL = 'crm_customer_level',
   CRM_CUSTOMER_SOURCE = 'crm_customer_source',
-  CRM_PRODUCT_STATUS = 'crm_product_status'
+  CRM_PRODUCT_STATUS = 'crm_product_status',
+
+  // ========== Family - space管理模块 ==========
+  SPACE_SOURCE_TYPE = 'space_source_type' // 目录源类型
 }
