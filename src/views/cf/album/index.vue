@@ -17,15 +17,6 @@
           class="!w-240px"
         />
       </el-form-item>
-      <el-form-item label="专辑封面" prop="picUrl">
-        <el-input
-          v-model="queryParams.picUrl"
-          placeholder="请输入专辑封面"
-          clearable
-          @keyup.enter="handleQuery"
-          class="!w-240px"
-        />
-      </el-form-item>
       <el-form-item label="封面id" prop="pic">
         <el-input
           v-model="queryParams.pic"

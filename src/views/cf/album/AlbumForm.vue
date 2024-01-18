@@ -11,7 +11,7 @@
         <el-input v-model="formData.name" placeholder="请输入专辑名称" />
       </el-form-item>
       <el-form-item label="专辑封面" prop="picUrl">
-        <el-input v-model="formData.picUrl" placeholder="请输入专辑封面" />
+        <UploadImg v-model="formData.picUrl" />
       </el-form-item>
       <el-form-item label="封面id" prop="pic">
         <el-input v-model="formData.pic" placeholder="请输入封面id" />

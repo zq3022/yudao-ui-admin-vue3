@@ -35,15 +35,6 @@
           class="!w-240px"
         />
       </el-form-item>
-      <el-form-item label="封面图片URL" prop="coverImgUrl">
-        <el-input
-          v-model="queryParams.coverImgUrl"
-          placeholder="请输入封面图片URL"
-          clearable
-          @keyup.enter="handleQuery"
-          class="!w-240px"
-        />
-      </el-form-item>
       <el-form-item label="广告类型" prop="adType">
         <el-select
           v-model="queryParams.adType"

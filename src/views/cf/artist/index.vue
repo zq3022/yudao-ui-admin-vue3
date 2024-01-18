@@ -62,15 +62,6 @@
           class="!w-240px"
         />
       </el-form-item>
-      <el-form-item label="头像地址" prop="picUrl">
-        <el-input
-          v-model="queryParams.picUrl"
-          placeholder="请输入头像地址"
-          clearable
-          @keyup.enter="handleQuery"
-          class="!w-240px"
-        />
-      </el-form-item>
       <el-form-item label="创建时间" prop="createTime">
         <el-date-picker
           v-model="queryParams.createTime"

@@ -17,7 +17,7 @@
         <el-input v-model="formData.coverImgId" placeholder="请输入封面图片编号" />
       </el-form-item>
       <el-form-item label="封面图片URL" prop="coverImgUrl">
-        <el-input v-model="formData.coverImgUrl" placeholder="请输入封面图片URL" />
+        <UploadImg v-model="formData.coverImgUrl" />
       </el-form-item>
       <el-form-item label="广告类型" prop="adType">
         <el-select v-model="formData.adType" placeholder="请选择广告类型">

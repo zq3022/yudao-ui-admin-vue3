@@ -26,7 +26,7 @@
         <el-input v-model="formData.picId" placeholder="请输入头像id" />
       </el-form-item>
       <el-form-item label="头像地址" prop="picUrl">
-        <el-input v-model="formData.picUrl" placeholder="请输入头像地址" />
+        <UploadImg v-model="formData.picUrl" />
       </el-form-item>
     </el-form>
     <template #footer>
